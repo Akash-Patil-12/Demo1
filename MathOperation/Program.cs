@@ -6,9 +6,13 @@ namespace MathOperation
     {
         static void Main(string[] args)
         {
+            //Console.WriteLine("welcome");
             Add obj= new Add();
-            obj.add(2, 5);
+            obj.add(2,5);
 
+            Sub subobj = new Sub();
+            subobj.subtraction(10, 5);
+            Console.ReadLine();
 
         }
     }

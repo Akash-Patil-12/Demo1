@@ -4,12 +4,11 @@ using System.Text;
 
 namespace MathOperation
 {
-    public class Add
+    class Sub
     {
-        public void add(int a,int b)
+        public void subtraction(int no1,int no2)
         {
-            Console.WriteLine("Addition is :" + (a + b));
-           
+            Console.WriteLine("Subtraction is : " + (no1 - no2));
         }
     }
 }

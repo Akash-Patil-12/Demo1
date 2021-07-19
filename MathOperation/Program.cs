@@ -15,6 +15,9 @@ namespace MathOperation
 
             Mul mulobj = new Mul();
             mulobj.multiplication(10, 5);
+
+            Div divobj = new Div();
+            divobj.Division(10, 5);
             Console.ReadLine();
 
         }

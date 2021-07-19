@@ -12,6 +12,9 @@ namespace MathOperation
 
             Sub subobj = new Sub();
             subobj.subtraction(10, 5);
+
+            Mul mulobj = new Mul();
+            mulobj.multiplication(10, 5);
             Console.ReadLine();
 
         }
